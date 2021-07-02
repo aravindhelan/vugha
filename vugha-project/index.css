@@ -1,0 +1,70 @@
+footer{
+  margin-top: 600px;
+  background-color: #232323;
+  padding-bottom: 10px;
+}
+h3{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+.links{
+  color: gray;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  color: gray;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.column{
+  width: 20%;
+  padding: 0% 5%;
+}
+.money{
+  width: 10%;
+}
+
+.icons{
+  padding: 5px;
+  color: gray;
+}
+
+.copyright{
+  text-align: center;
+  color: gray;
+}
+
+
+.categories a:hover{
+  color: white;
+  padding-left: 10px;
+}
+
+.footer-icons i:hover{
+  color: white;
+}
+
+
+@media(max-width: 1000px){
+  .column{
+    width: 25%;
+    margin-bottom: 20px;
+    padding-right: 20%;
+  }
+}
+
+@media(max-width: 650px){
+  .column{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 20%;
+  }
+}
